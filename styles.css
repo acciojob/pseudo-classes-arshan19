@@ -2,24 +2,28 @@
   background-color: rgb(135, 206, 235);
 }
 
-/* p:first-child {
+p:first-child {
   color: white;
   background-color: black;
   padding: 10px;
-} */
+}
 
-#firstPara{
+/* #firstPara{
 	background-color:black;
 	color: white
-}
+} */
 
 p:nth-child(2) {
   color: inherit;
 }
 
-#thirdPara{
-	color: red
+p:last-child {
+  color: red;
 }
+
+/* #thirdPara{
+	color: red
+} */
 
 ul li {
   background-color: gray;
